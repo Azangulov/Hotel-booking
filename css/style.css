@@ -561,6 +561,21 @@ template {
   width: 100%;
 }
 
+.stars-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 52px;
+}
+
+.one-star {
+  margin-right: 4px;
+  margin-left: 0;
+}
+
 .offer {
   font-weight: 600;
   font-size: 10px;
@@ -590,6 +605,11 @@ template {
   font-weight: bold;
   font-size: 14px;
   line-height: 18px;
+}
+
+.rating__max {
+  font-weight: bold;
+  font-size: 12px;
 }
 
 @media (max-width: 1200px) {

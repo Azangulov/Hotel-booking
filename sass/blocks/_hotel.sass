@@ -23,8 +23,15 @@
     display: flex
     flex-wrap: wrap
     align-items: center
-.stars
+.stars  
   width: 100%
+  &-container
+    display: flex
+    justify-content: space-between
+    max-width: 52px
+.one-star
+  margin-right: 4px
+  margin-left: 0
 .offer
   font-weight: 600
   font-size: 10px
@@ -48,3 +55,6 @@
     font-weight: bold
     font-size: 14px
     line-height: 18px
+  &__max
+    font-weight: bold
+    font-size: 12px
