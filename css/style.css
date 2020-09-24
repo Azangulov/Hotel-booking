@@ -876,7 +876,7 @@ template {
 .subscribe {
   position: relative;
   width: 350px;
-  min-height: 55px;
+  height: 55px;
   border-radius: 4px;
   overflow: hidden;
 }
@@ -884,7 +884,7 @@ template {
 .subscribe__input {
   position: absolute;
   width: 100%;
-  min-height: 55px;
+  height: 100%;
   border: none;
   padding-left: 33px;
   padding-right: 75px;
@@ -895,8 +895,9 @@ template {
 
 .subscribe__button {
   position: absolute;
-  width: 65px;
-  min-height: 55px;
+  min-width: 65px;
+  max-width: 95px;
+  height: 100%;
   right: 0;
   top: 0;
   border: none;
