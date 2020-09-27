@@ -2070,17 +2070,17 @@ template {
     height: 100%;
   }
   .blue-haven__details {
-    padding: 15px 10px 5px 15px;
+    padding: 10px 10px 5px 15px;
   }
   .blue-haven__name {
-    font-size: 16px;
+    font-size: 15px;
     line-height: 18px;
   }
   .blue-haven__text {
     font-size: 13px;
     line-height: 140%;
-    margin-top: 15px;
-    margin-bottom: 17px;
+    margin-top: 13px;
+    margin-bottom: 15px;
   }
   .blue-haven__data {
     margin-bottom: 8px;
