@@ -2061,6 +2061,9 @@ template {
     font-size: 12px;
     line-height: 15px;
   }
+  .price__haven {
+    padding: 5px 10px;
+  }
   .blue-haven {
     height: 485px;
     width: 100%;
