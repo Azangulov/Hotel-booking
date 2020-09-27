@@ -853,7 +853,8 @@ template {
   position: relative;
 }
 
-.grid-image__blue {
+.grid-image__haven {
+  height: 100%;
   width: 50%;
 }
 
@@ -861,15 +862,15 @@ template {
   height: 50%;
 }
 
-.grid-image__white {
+.grid-image__palace {
   height: 50%;
 }
 
-.grid-image__luxury {
+.grid-image__place {
   height: 50%;
 }
 
-.grid-image__five {
+.grid-image__star {
   height: 50%;
 }
 
@@ -1893,7 +1894,7 @@ template {
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     margin-bottom: -400px;
   }
-  .grid-image__blue {
+  .grid-image__haven {
     height: 100%;
     width: 50%;
   }
@@ -1901,15 +1902,15 @@ template {
     height: 50%;
     width: 100%;
   }
-  .grid-image__white {
+  .grid-image__palace {
     height: 50%;
     width: 100%;
   }
-  .grid-image__luxury {
+  .grid-image__place {
     height: 50%;
     width: 100%;
   }
-  .grid-image__five {
+  .grid-image__star {
     height: 50%;
     width: 100%;
   }
