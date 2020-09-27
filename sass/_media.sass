@@ -12,6 +12,30 @@
   .card
     width: 230px
     height: 230px
+  .grid
+    &__item
+      &-2
+        width: 300px
+        height: 485px
+      &-3
+        width: 300px
+        height: 485px
+      &-4
+        width: 300px
+        height: 485px
+      &-5
+        width: 300px
+        height: 485px
+  .blue-haven
+    height: 485px
+    width: 620px
+    &__details
+      padding: 37px 21px 30px 35px
+    &__text
+      margin-top: 20px
+      margin-bottom: 25px
+    &__info
+      margin-bottom: 20px
 @media (max-width: 992px)
   .container, .newsletter-wrapper
     max-width: 700px
@@ -59,6 +83,28 @@
   .card
     width: 340px
     height: 255px
+  .grid
+    grid-template-columns: 1fr 1fr
+    grid-template-rows: 1fr 1fr 1fr
+    &__item
+      &-1
+        width: 695px
+      &-2
+        width: 343px
+        height: 485px
+      &-3
+        width: 343px
+        height: 485px
+      &-4
+        width: 343px
+        height: 485px
+      &-5
+        width: 343px
+        height: 485px
+  .blue-haven
+    height: 485px
+    width: 695px
+    margin-bottom: 10px
 @media (max-width: 768px)
   .container
     max-width: 576px
@@ -140,6 +186,101 @@
   .card
     width: 49%
     height: 255px
+  .grid
+    grid-template-columns: 1fr 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr
+    margin-bottom: -400px
+    &-image
+      &__item-1
+        height: 100%
+        width: 50%
+      &__item-2
+        height: 50%
+        width: 100%
+      &__item-3
+        height: 50%
+        width: 100%
+      &__item-4
+        height: 50%
+        width: 100%
+      &__item-5
+        height: 50%
+        width: 100%
+    &__item
+      &-1
+        grid-column-start: span 1
+        width: 100%
+      &-2
+        width: 100%
+        height: 485px
+      &-3
+        width: 100%
+        height: 485px
+      &-4
+        width: 100%
+        height: 485px
+      &-5
+        width: 100%
+        height: 485px  
+  .price
+    &__before
+      font-size: 12px
+      line-height: 15px
+      margin-bottom: 10px
+    &__after
+      font-size: 18px
+      line-height: 24px
+    &__button
+      padding: 5px 20px
+      font-size: 12px
+      line-height: 15px
+  .blue-haven
+    height: 485px
+    width: 100%
+    margin-bottom: 10px
+    &__image
+      height: 100%
+    &__details
+      padding: 20px 15px 5px 25px
+    &__name
+      font-size: 18px
+      line-height: 20px
+    &__text
+      font-size: 14px
+      line-height: 140%
+      margin-top: 15px
+      margin-bottom: 20px
+    &__data
+      margin-bottom: 10px
+    &__icon
+      margin-right: 10px
+    &__description
+      font-size: 12px
+      line-height: 15px
+  .belle-mare
+    &__image
+      width: 100%
+      height: 100%
+    &__details
+      height: 50%
+  .white-palace
+    &__image
+      width: 100%
+      height: 100%
+    &__details
+      height: 50%
+  .luxury-place
+    &__image
+      width: 100%
+      height: 100%
+    &__details
+      height: 50%
+  .five-star
+    &__image
+      width: 100%
+      height: 100%
+    &__details
+      height: 50%
 @media (max-width: 576px)
   .logo
     width: 99px
@@ -162,3 +303,42 @@
     width: 100%
   .card
     width: 100%
+  .grid
+    grid-template-columns: 1fr 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr
+    margin-bottom: -430px 
+  .price
+    &__before
+      font-size: 12px
+      line-height: 15px
+      margin-bottom: 10px
+    &__after
+      font-size: 18px
+      line-height: 24px
+    &__button
+      padding: 5px 20px
+      font-size: 12px
+      line-height: 15px
+  .blue-haven
+    height: 485px
+    width: 100%
+    margin-bottom: 10px
+    &__image
+      height: 100%
+    &__details
+      padding: 15px 10px 5px 15px
+    &__name
+      font-size: 16px
+      line-height: 18px
+    &__text
+      font-size: 13px
+      line-height: 140%
+      margin-top: 15px
+      margin-bottom: 20px
+    &__data
+      margin-bottom: 10px
+    &__icon
+      margin-right: 10px
+    &__description
+      font-size: 12px
+      line-height: 15px
