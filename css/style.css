@@ -1732,7 +1732,7 @@ template {
     -ms-grid-rows: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
   }
-  .grid__main {
+  .grid__primary {
     width: 695px;
   }
   .grid__item {
@@ -1891,7 +1891,7 @@ template {
     height: 50%;
     width: 100%;
   }
-  .grid__main {
+  .grid__primary {
     -ms-grid-column: span 1;
         grid-column-start: span 1;
     width: 100%;
