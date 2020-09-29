@@ -1646,13 +1646,13 @@ template {
   -ms-grid-columns: (minmax(min-content, 1fr))[4];
       grid-template-columns: repeat(4, minmax(-webkit-min-content, 1fr));
       grid-template-columns: repeat(4, minmax(min-content, 1fr));
-  grid-gap: 20px;
+  grid-gap: 30px;
   grid-auto-rows: minmax(40px, -webkit-min-content);
   grid-auto-rows: minmax(40px, min-content);
 }
 
 .footer__logo {
-  width: 166px;
+  width: 155px;
   -ms-grid-row: 1;
   -ms-grid-row-span: 2;
   grid-row: 1 / 3;
@@ -1699,6 +1699,10 @@ template {
 
 .footer__contact-form {
   grid-column: span 2;
+}
+
+.footer__legal {
+  padding-left: 60px;
 }
 
 .footer__form {
@@ -1832,7 +1836,7 @@ template {
 }
 
 .footer__policy-wrapper {
-  margin-top: 102px;
+  margin-top: 95px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1887,9 +1891,6 @@ template {
     margin-bottom: 20px;
   }
   .footer__title--media-cat {
-    margin-bottom: 38.4px;
-  }
-  .footer__title--media-legal {
     margin-bottom: 38.4px;
   }
   .footer__input {
@@ -2463,6 +2464,7 @@ template {
     margin-bottom: 30px;
   }
   .footer__legal {
+    padding-left: 0;
     -ms-grid-row: 5;
     grid-row: 5;
     -ms-grid-column: 1;
