@@ -1646,9 +1646,10 @@ template {
   -ms-grid-columns: (minmax(min-content, 1fr))[4];
       grid-template-columns: repeat(4, minmax(-webkit-min-content, 1fr));
       grid-template-columns: repeat(4, minmax(min-content, 1fr));
-  grid-gap: 30px;
-  grid-auto-rows: minmax(40px, -webkit-min-content);
-  grid-auto-rows: minmax(40px, min-content);
+  grid-column-gap: 30px;
+  grid-row-gap: 20px;
+  grid-auto-rows: minmax(37px, -webkit-min-content);
+  grid-auto-rows: minmax(37px, min-content);
 }
 
 .footer__logo {
@@ -1767,6 +1768,10 @@ template {
 .footer__text {
   color: #BDBDBD;
   margin-bottom: 22px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 160%;
 }
 
 .footer__link {

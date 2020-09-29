@@ -6,8 +6,9 @@
   &-wrapper
     display: grid
     grid-template-columns: repeat(4,minmax(min-content, 1fr))
-    grid-gap: 30px
-    grid-auto-rows: minmax(40px, min-content)
+    grid-column-gap: 30px
+    grid-row-gap: 20px
+    grid-auto-rows: minmax(37px, min-content)
   &__logo
     width: 155px
     grid-row: 1 / 3
@@ -68,6 +69,10 @@
   &__text
     color: $footer-text-color
     margin-bottom: 22px
+    font-style: normal
+    font-weight: normal
+    font-size: 14px
+    line-height: 160%
   &__link
     text-decoration: none
     color: inherit
