@@ -27,9 +27,13 @@
     &__info
       margin-bottom: 20px
   .footer
+    &__legal
+      padding-left: 0
     &__title
       &--media
         &-cat
+          margin-bottom: 38.4px
+        &-legal
           margin-bottom: 38.4px
     &__input
       flex-basis: 100%
@@ -334,10 +338,18 @@
   .footer
     &__title
       &--media
+        &-cat
+          margin-bottom: 38.4px   
         &-legal
           margin-bottom: 16px
     &__input
       flex-basis: 100%
+@media (max-width: 618px)
+  .footer
+    &__title
+      &--media
+        &-cat
+          margin-bottom: 16px
 @media (max-width: 576px)
   .logo
     width: 99px

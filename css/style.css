@@ -1890,7 +1890,13 @@ template {
   .blue-haven__info {
     margin-bottom: 20px;
   }
+  .footer__legal {
+    padding-left: 0;
+  }
   .footer__title--media-cat {
+    margin-bottom: 38.4px;
+  }
+  .footer__title--media-legal {
     margin-bottom: 38.4px;
   }
   .footer__input {
@@ -2324,12 +2330,21 @@ template {
   .five-star__details {
     height: 50%;
   }
+  .footer__title--media-cat {
+    margin-bottom: 38.4px;
+  }
   .footer__title--media-legal {
     margin-bottom: 16px;
   }
   .footer__input {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
+  }
+}
+
+@media (max-width: 618px) {
+  .footer__title--media-cat {
+    margin-bottom: 16px;
   }
 }
 
