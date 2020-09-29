@@ -2362,6 +2362,9 @@ template {
     font-size: 12px;
     line-height: 15px;
   }
+  .footer {
+    padding-top: 69px;
+  }
   .footer__title--media-cat {
     margin-bottom: 16px;
   }
