@@ -2504,5 +2504,18 @@ template {
     -ms-grid-column: 1;
     grid-column: 1;
   }
+  .footer__policy {
+    padding-left: 2px;
+    max-width: 350px;
+  }
+  .footer__policy-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+  }
 }
 /*# sourceMappingURL=style.css.map */
