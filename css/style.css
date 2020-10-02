@@ -554,6 +554,15 @@ template {
   padding-bottom: 70px;
 }
 
+.hotel__thx {
+  margin-top: 15px;
+}
+
+.hotel__thxy {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 .hotel-info {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1676,9 +1685,9 @@ template {
 .footer-wrapper {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(min-content, 1fr))[4];
-      grid-template-columns: repeat(4, minmax(-webkit-min-content, 1fr));
-      grid-template-columns: repeat(4, minmax(min-content, 1fr));
+  -ms-grid-columns: minmax(min-content, 1fr) minmax(min-content, 1fr) minmax(min-content, 1fr) minmax(min-content, 1fr);
+      grid-template-columns: minmax(-webkit-min-content, 1fr) minmax(-webkit-min-content, 1fr) minmax(-webkit-min-content, 1fr) minmax(-webkit-min-content, 1fr);
+      grid-template-columns: minmax(min-content, 1fr) minmax(min-content, 1fr) minmax(min-content, 1fr) minmax(min-content, 1fr);
   grid-column-gap: 30px;
   grid-row-gap: 20px;
   grid-auto-rows: minmax(37px, -webkit-min-content);
@@ -2094,8 +2103,8 @@ template {
     margin-bottom: 10px;
   }
   .footer-wrapper {
-    -ms-grid-columns: (1fr)[6];
-        grid-template-columns: repeat(6, 1fr);
+    -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-row-gap: 20px;
   }
   .footer__logo {
