@@ -31,14 +31,14 @@ try {
 
     // Настройки вашей почты
     $mail->Host       = 'smtp.mail.ru'; // SMTP сервера вашей почты
-    $mail->Username   = 'imbaimbaimba123@mail.ru'; // Логин на почте
+    $mail->Username   = 'dota-2-player@mail.ru'; // Логин на почте
     $mail->Password   = '7934436v'; // Пароль на почте
     $mail->SMTPSecure = 'ssl';
     $mail->Port       = 465;
-    $mail->setFrom('imbaimbaimba123@mail.ru', 'Ali Aza'); // Адрес самой почты и имя отправителя
-
+    $mail->setFrom('dota-2-player@mail.ru', 'Ali Aza'); // Адрес самой почты и имя отправителя
+dota-2-player@mail.ru
     // Получатель письма
-    $mail->addAddress('123imbaimbaimba@mail.ru');
+    $mail->addAddress('dota-2-ali@mail.ru');
 
     // Отправка сообщения
     $mail->isHTML(true);
