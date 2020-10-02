@@ -131,6 +131,10 @@
       transform: translateX(0)
       &-wrapper
         justify-content: space-between
+  .modal
+    &__dialog
+      padding-left: 48px
+      padding-right: 48px
 @media (max-width: 768px)
   .container
     max-width: 576px
@@ -344,6 +348,17 @@
           margin-bottom: 16px
     &__input
       flex-basis: 100%
+  .modal
+    &__dialog
+      width: 90%
+    &__form
+      flex-direction: column
+    &__message
+      margin-bottom: 10px
+    &__button
+      order: 10
+      margin-top: 10px
+      width: 100%
 @media (max-width: 618px)
   .footer
     &__title
