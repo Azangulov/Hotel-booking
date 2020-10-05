@@ -68,10 +68,11 @@ $(document).ready(function () {
   $(".form").each(function () {
     $(this).validate({
       errorClass: "invalid",
+      validClass: "success",
       messages: {
         name: {
           required: "Your name",
-          minlength: "Your name should consist from at least 2 letters",
+          minlength: "At least 2 letters",
         },
         email: {
           required: "Your email",
@@ -79,6 +80,7 @@ $(document).ready(function () {
         },
         phone: {
           required: "Your phone",
+          minlength: "+7(***) ***-**-**",
         },
       },
     });
