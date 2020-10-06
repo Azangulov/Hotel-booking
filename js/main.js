@@ -68,7 +68,6 @@ $(document).ready(function () {
   $(".form").each(function () {
     $(this).validate({
       errorClass: "invalid",
-      validClass: "success",
       messages: {
         name: {
           required: "Your name",
@@ -94,6 +93,6 @@ $(document).ready(function () {
       },
     },
   });
-
   $(".phone").mask("+7 (000) 000-00-00");
+  AOS.init();
 });

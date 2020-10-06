@@ -8,10 +8,11 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/aos.css" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Best Tour Plan - Hotel Booking</title>
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/parallax.min.js"></script>
   </head>
@@ -19,7 +20,7 @@
     <header class="navbar navbar--mobile--fixed">
       <div class="container">
         <div class="navbar-top">
-          <a href="#" class="logo">
+          <a href="#" class="logo" data-aos="fade-down" data-aos-delay="100">
             <img
               src="img/horizontal-logo.svg"
               alt="Logo: Best Tour Plan"
@@ -30,6 +31,8 @@
           <form
             action="#"
             class="search navbar__search navbar__search--mobile--hidden"
+            data-aos="fade-down"
+            data-aos-delay="200"
           >
             <input
               type="text"
@@ -41,13 +44,18 @@
             </button>
           </form>
 
-          <a href="#" class="user navbar__user navbar__user--mobile--hidden">
+          <a
+            href="#"
+            class="user navbar__user navbar__user--mobile--hidden"
+            data-aos="fade-down"
+            data-aos-delay="300"
+          >
             <img
               src="img/user-avatar.jfif"
               alt="avatar: Nathan"
               class="user__avatar"
             />
-            <span class="user__name">Nathan</span>
+            <span class="user__name" data-aos="fade-down">Nathan</span>
           </a>
           <button class="menu-button navbar-top__menu-button">
             <span class="menu-button__line"></span>
@@ -284,7 +292,11 @@
       <div class="container">
         <h2 class="packages__title">Other Packages</h2>
         <div class="packages-grid grid">
-          <div class="grid__primary blue-haven">
+          <div
+            class="grid__primary blue-haven"
+            data-aos="flip-left"
+            data-aos-delay="100"
+          >
             <div class="grid__image grid__haven">
               <img
                 src="img/grid-img/package-1.jfif"
@@ -359,7 +371,11 @@
           </div>
           <!-- /.packages-grid__item-1 -->
 
-          <div class="grid__item belle-mare">
+          <div
+            class="grid__item belle-mare"
+            data-aos="flip-left"
+            data-aos-delay="100"
+          >
             <div class="grid__image grid__belle">
               <img
                 src="img/grid-img/package-2.jfif"
@@ -419,7 +435,11 @@
           </div>
           <!-- /.packages-grid__item-2 -->
 
-          <div class="grid__item white-palace">
+          <div
+            class="grid__item white-palace"
+            data-aos="flip-left"
+            data-aos-delay="100"
+          >
             <div class="grid__image grid__palace">
               <img
                 src="img/grid-img/package-3.jfif"
@@ -478,7 +498,11 @@
           </div>
           <!-- /.packages-grid__item-3 -->
 
-          <div class="grid__item luxury-place">
+          <div
+            class="grid__item luxury-place"
+            data-aos="flip-left"
+            data-aos-delay="100"
+          >
             <div class="grid__image grid__place">
               <img
                 src="img/grid-img/package-4.jfif"
@@ -537,7 +561,11 @@
           </div>
           <!-- /.packages-grid__item-4 -->
 
-          <div class="grid__item five-star">
+          <div
+            class="grid__item five-star"
+            data-aos="flip-left"
+            data-aos-delay="100"
+          >
             <div class="grid__image grid__star">
               <img
                 src="img/grid-img/package-5.jfif"
@@ -609,7 +637,10 @@
           data-image-src="img/newsletter-bg.jfif"
         >
           <div class="newsletter-wrapper">
-            <h2 class="newsletter-title newsletter__title">
+            <h2
+              class="newsletter-title newsletter__title"
+              data-aos="fade-right"
+            >
               subscribe to our
               <span class="newsletter-title__strong">Newsletter</span>
             </h2>
@@ -617,6 +648,7 @@
               action="send.php"
               method="POST"
               class="subscribe newsletter__subscribe"
+              data-aos="fade-left"
             >
               <input
                 type="email"
@@ -756,7 +788,11 @@
       <div class="container">
         <h2 class="activities__title">Other Activities</h2>
         <div class="activities-wrapper">
-          <div class="card activities__card">
+          <div
+            class="card activities__card"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
             <img
               src="img/activity-1.jfif"
               alt="The curious corner of chamarel"
@@ -766,7 +802,11 @@
             <button class="card__button">Book Now</button>
           </div>
           <!--/.card-->
-          <div class="card activities__card">
+          <div
+            class="card activities__card"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
             <img
               src="img/activity-2.jfif"
               alt="Gymkhana club golf course"
@@ -776,7 +816,11 @@
             <button class="card__button">Book Now</button>
           </div>
           <!--/.card-->
-          <div class="card activities__card">
+          <div
+            class="card activities__card"
+            data-aos="fade-up"
+            data-aos-delay="500"
+          >
             <img
               src="img/activity-3.jfif"
               alt="Tamarind falls hiking trip - full day"
@@ -786,7 +830,11 @@
             <button class="card__button">Book Now</button>
           </div>
           <!--/.card-->
-          <div class="card activities__card">
+          <div
+            class="card activities__card"
+            data-aos="fade-up"
+            data-aos-delay="700"
+          >
             <img
               src="img/activity-4.jfif"
               alt="The blue marine discovery quest"
@@ -1004,29 +1052,35 @@
         </a>
         <h3 class="modal__title">Booking</h3>
         <form action="send.php" method="POST" class="modal__form form">
-          <input
-            type="text"
-            class="input modal__input"
-            placeholder="Your Full Name*"
-            name="name"
-            required
-            minlength="2"
-          />
-          <input
-            type="tel"
-            class="input modal__input phone"
-            placeholder="Phone Number*"
-            name="phone"
-            required
-            minlength="18"
-          />
-          <input
-            type="email"
-            class="input modal__input"
-            placeholder="Email*"
-            name="email"
-            required
-          />
+          <div class="abs">
+            <input
+              type="text"
+              class="input modal__input"
+              placeholder="Your Full Name*"
+              name="name"
+              required
+              minlength="2"
+            />
+          </div>
+          <div class="abs">
+            <input
+              type="tel"
+              class="input modal__input phone"
+              placeholder="Phone Number*"
+              name="phone"
+              required
+              minlength="18"
+            />
+          </div>
+          <div class="abs">
+            <input
+              type="email"
+              class="input modal__input"
+              placeholder="Email*"
+              name="email"
+              required
+            />
+          </div>
           <textarea
             class="message modal__message"
             placeholder="Message"
@@ -1043,6 +1097,7 @@
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.mask.min.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/aos.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

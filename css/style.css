@@ -71,8 +71,16 @@ button {
   left: 33px;
 }
 
-.success {
-  margin-bottom: 18.4px;
+.abs {
+  position: relative;
+  width: 100%;
+}
+
+label {
+  position: absolute;
+  top: 14px;
+  right: 10px;
+  text-align: end;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -1976,12 +1984,11 @@ template {
 
 .modal__input {
   width: 100%;
-  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .modal__message {
   width: 100%;
-  margin-top: 15px;
   margin-bottom: 15px;
 }
 
